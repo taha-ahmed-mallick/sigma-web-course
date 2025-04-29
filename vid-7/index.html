@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Form To Apply Sigma Web Dev Course</h1>
+		<form action="POST" method="post">
+			<div>
+				<label for="username">Enter your username: </label>
+				<input type="text" name="username" placeholder="Enter your username" id="username" autofocus required/>
+			</div>
+            <div>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="checkbox" name="remember" id="remember" value="yes">
+                <label for="remember">Remember me on this device.</label>
+            </div>
+            <div>
+                <label for="comment">Please give your review:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <select name="fruit" id="fruit">
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Cherry">Cherry</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit!">
+		</form>
+	</body>
+</html>
